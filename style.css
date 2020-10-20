@@ -1,0 +1,112 @@
+
+/* general style*/
+
+body{
+  margine : 0;
+  font-family: arial, sans-serif ;
+  background-image: url(images/body-background.jpg);
+}
+
+header{
+  heigth: 140px;
+  background-color: black;
+  background-image: url(images/header-footer-background.jpg);
+}
+
+.title-name{
+  font-family: "Lucida Console", Monaco, monospace ;
+  font-size: 72px;
+  color: white;
+  text-align: center ;
+  margin : 0 ;
+  padding: 20px 0 0 0 ;
+}
+
+header h2{
+  font-family: "Lucida Console", Monaco, monospace ;
+  color: white;
+  margin: 0px;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer{
+  background-color: black;
+  background-image: url(images/header-footer-background.jpg);
+}
+
+section{
+  margin: 0 25%;
+  padding: 80px 0 ;
+}
+
+/* text-type*/
+
+h1, h2{
+  font-family: 'Courier New', Courier, monospace ;
+  color: black;
+  text-align: center;
+  font-wight: 500;
+}
+
+p, li{
+  font-family: 'Courier New', Courier, monospace ;
+  margin-bottom: 0 ;
+  font-weight: 200 ;
+  line-height: 1.5em;
+}
+
+a{
+  font-weight: 700 ;
+  text-decoration: none ;
+}
+a:link{
+  color: blue;
+}
+a:visited{
+  color:green; 
+}
+a:hover{
+  color: black;
+}
+a:active{
+  color: black;
+}
+
+
+em{
+  font-weight: bold;
+  font-style: normal;
+}
+
+footer h3{
+  margin: 0px;
+  padding: 30px;
+  text-align: center;
+  color: white; 
+}
+
+hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+/*element*/
+img, iframe{
+  width:100%;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+/*modifier style*/
+.border-top{
+  padding-top: 80px;
+  border-top: 2px solid black;
+}
+
+
